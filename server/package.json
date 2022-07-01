@@ -1,0 +1,37 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "devStart": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@progress/kendo-licensing": "^1.2.0",
+    "@progress/kendo-react-excel-export": "^4.8.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cookies": "^0.8.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "fs": "0.0.1-security",
+    "hard-source-webpack-plugin": "^0.13.1",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.14",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  }
+}

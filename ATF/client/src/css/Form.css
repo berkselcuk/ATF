@@ -1,0 +1,143 @@
+.leftForm {
+  width: 50%;
+  border-right: 2px solid rgba(222, 226, 230, 0.5);
+  padding: 2%;
+  text-align: center;
+  height: 100%;
+  float: left;
+  min-width: 300px;
+}
+
+.leftForm input {
+  margin-bottom: 5%;
+  text-align: center;
+  display: flex;
+  min-width: 100px;
+  width: 80% !important;
+}
+
+.leftForm textarea {
+  resize: none;
+  width: 80% !important;
+  align-self: center;
+  background-color: #f6f6f6;
+  border: 0;
+  margin-bottom: 5%;
+  min-width: 100px;
+  text-align: center;
+}
+
+.rightForm {
+  width: calc(50% - 2px);
+  border-right: 0;
+  padding: 2%;
+  text-align: center;
+  height: 100%;
+  float: right;
+}
+
+.rightForm input {
+  margin-bottom: 5%;
+  text-align: center;
+  display: flex;
+  min-width: 100px;
+  width: 80% !important;
+}
+
+.fl-left {
+  float: left;
+  text-align: center;
+  display: flex;
+  min-width: 100px;
+  width: 80% !important;
+  padding-left: 37%;
+}
+
+.tr th {
+  max-width: 150px;
+  word-wrap: break-word;
+}
+.tr td {
+  max-width: 150px;
+  word-wrap: break-word;
+}
+
+.btn-aktar {
+  float: right;
+  margin: 10px;
+  width: 10%;
+}
+
+.table {
+  border-bottom: 2px solid rgba(222, 226, 230, 0.5);
+}
+
+.form-ayar {
+  padding-bottom: 10%;
+  padding-top: 5%;
+  border-bottom: 5px solid rgba(222, 226, 230, 0.5);
+}
+
+.form-ayar h1 {
+  color: gray;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.form-ayar select {
+  width: 80%;
+}
+
+.user-info {
+  display: block;
+  border-top: 5px solid rgba(222, 226, 230, 0.5);
+  margin-top: 5%;
+}
+
+details[open] summary ~ * {
+  animation: sweep 0.5s ease-in-out;
+}
+
+@keyframes sweep {
+  0% {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.form-filter input {
+  width: 15%;
+  height: 35px;
+  padding: 0;
+  margin-right: 30px;
+  font-size: medium;
+  float: inline-end, left;
+  display: inline-flex;
+}
+
+.form-filter select {
+  display: inline-flex;
+  width: 20%;
+  height: 35px;
+  padding: 0.375rem 1.75rem 0.375rem 0.75rem;
+  line-height: 1.5;
+  color: #495057;
+  vertical-align: middle;
+  background: #fff
+    url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E")
+    no-repeat right 0.75rem center;
+  background-size: 8px 10px;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  appearance: none;
+}

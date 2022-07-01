@@ -1,0 +1,1 @@
+export const updateHeader = (header) => ({ type: 'updateHeader'+header })

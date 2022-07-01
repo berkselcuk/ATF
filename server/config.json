@@ -1,0 +1,10 @@
+{
+    "host"     : "localhost",
+	"user"     : "root",
+	"password" : "berk1234",
+	"database" : "nodelogin",
+	"secretkey": "isbak",
+	"port":3005,
+	"defaultUserPassword":"1234",
+	"corsOrigin":"http://localhost:3000"
+}
